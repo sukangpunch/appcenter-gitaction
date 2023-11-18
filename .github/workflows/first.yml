@@ -34,7 +34,7 @@ jobs:
             username: ${{ secrets.USER }}
             password: ${{ secrets.PASSWORD }}
             port: ${{ secrets.SSH_PORT }}
-            source: "./build/libs/*.jar"
+            source: "./MyTodoList/build/libs/*.jar"
             target: download
 
       - name: Deploy remote ssh commands using password
