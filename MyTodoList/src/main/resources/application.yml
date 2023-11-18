@@ -25,6 +25,6 @@ spring:
         level:
             com.example.mytodolist : error
             com.example.mytodolist.controller : debug
-#
-#server:
-#    port: 5152
+
+server:
+    port: 5152
