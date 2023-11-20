@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
+import springfox.documentation.oas.annotations.EnableOpenApi;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.service.Server;
 import springfox.documentation.spi.DocumentationType;
@@ -14,11 +15,14 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import java.util.Collections;
 
 @Configuration
-@EnableSwagger2
+@EnableOpenApi
 public class SwaggerConfig {
     @Bean
     public Docket api(){
+        Server serverLocal = new Server("local", "http://localhost:8080", "for local usages", Collections.emptyList(), Collections.emptyList());
+        Server testServer = new Server("test", "https://hyeongjun.na2ru2.me/", "for testing", Collections.emptyList(), Collections.emptyList());
         return new Docket(DocumentationType.OAS_30)
+                .servers(serverLocal, testServer)
                 .useDefaultResponseMessages(true)
                 .apiInfo(apiInfo())
                 .select()
