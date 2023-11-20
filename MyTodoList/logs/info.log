@@ -1,21 +1,21 @@
-[2023-11-19 00:10:01.448] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.0.Final
-[2023-11-19 00:10:01.458] [INFO ] [main] com.example.mytodolist.MyTodoListApplication Starting MyTodoListApplication using Java 11.0.0.1 on DESKTOP-1TRTNQM with PID 27200 (C:\appcenter-gitaction\MyTodoList\out\production\classes started by kanghj in C:\appcenter-gitaction\MyTodoList)
-[2023-11-19 00:10:01.459] [INFO ] [main] com.example.mytodolist.MyTodoListApplication No active profile set, falling back to default profiles: default
-[2023-11-19 00:10:02.396] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[2023-11-19 00:10:02.434] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
-[2023-11-19 00:10:02.803] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 5152 (http)
-[2023-11-19 00:10:02.810] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-5152"]
-[2023-11-19 00:10:02.811] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
-[2023-11-19 00:10:02.811] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.55]
-[2023-11-19 00:10:02.873] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
-[2023-11-19 00:10:02.873] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1375 ms
-[2023-11-19 00:10:02.958] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
-[2023-11-19 00:10:02.992] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.1.Final
-[2023-11-19 00:10:03.133] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-[2023-11-19 00:10:03.209] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
-[2023-11-19 00:10:03.280] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
-[2023-11-19 00:10:03.292] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-[2023-11-19 00:10:03.715] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "alter table todo_tb drop foreign key FKthew3m5jqlqwgupqso6xicnri" via JDBC Statement
+[2023-11-20 21:07:57.458] [INFO ] [main] com.example.mytodolist.MyTodoListApplication Starting MyTodoListApplication using Java 11.0.0.1 on DESKTOP-1TRTNQM with PID 7436 (C:\appcenter-gitaction\MyTodoList\out\production\classes started by kanghj in C:\appcenter-gitaction\MyTodoList)
+[2023-11-20 21:07:57.458] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.0.Final
+[2023-11-20 21:07:57.465] [INFO ] [main] com.example.mytodolist.MyTodoListApplication No active profile set, falling back to default profiles: default
+[2023-11-20 21:07:58.420] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-11-20 21:07:58.472] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+[2023-11-20 21:07:58.864] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 5152 (http)
+[2023-11-20 21:07:58.870] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-5152"]
+[2023-11-20 21:07:58.870] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[2023-11-20 21:07:58.870] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.55]
+[2023-11-20 21:07:58.933] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[2023-11-20 21:07:58.934] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1426 ms
+[2023-11-20 21:07:59.041] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-11-20 21:07:59.092] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.1.Final
+[2023-11-20 21:07:59.265] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-11-20 21:07:59.359] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-11-20 21:07:59.413] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-11-20 21:07:59.428] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2023-11-20 21:07:59.940] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "alter table todo_tb drop foreign key FKthew3m5jqlqwgupqso6xicnri" via JDBC Statement
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table todo_tb drop foreign key FKthew3m5jqlqwgupqso6xicnri" via JDBC Statement
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
 	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
@@ -53,7 +53,7 @@ org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "a
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
 	at com.example.mytodolist.MyTodoListApplication.main(MyTodoListApplication.java:12)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=3) Table 'todoaction.todo_tb' doesn't exist
+Caused by: java.sql.SQLSyntaxErrorException: (conn=56) Table 'todoaction.todo_tb' doesn't exist
 	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
 	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:158)
 	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:262)
@@ -75,360 +75,12 @@ Caused by: java.sql.SQLException: Table 'todoaction.todo_tb' doesn't exist
 	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1521)
 	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:254)
 	... 40 common frames omitted
-[2023-11-19 00:10:03.878] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-[2023-11-19 00:10:03.883] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
-[2023-11-19 00:10:04.547] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-5152"]
-[2023-11-19 00:10:04.559] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 5152 (http) with context path ''
-[2023-11-19 00:10:04.723] [INFO ] [main] com.example.mytodolist.MyTodoListApplication Started MyTodoListApplication in 3.683 seconds (JVM running for 5.57)
-[2023-11-19 00:10:57.564] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
-[2023-11-19 00:10:57.564] [INFO ] [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-[2023-11-19 00:10:57.613] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
-[2023-11-19 00:10:57.619] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
-[2023-11-19 00:11:06.873] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.0.Final
-[2023-11-19 00:11:06.880] [INFO ] [main] com.example.mytodolist.MyTodoListApplication Starting MyTodoListApplication using Java 11.0.0.1 on DESKTOP-1TRTNQM with PID 27868 (C:\appcenter-gitaction\MyTodoList\out\production\classes started by kanghj in C:\appcenter-gitaction\MyTodoList)
-[2023-11-19 00:11:06.882] [INFO ] [main] com.example.mytodolist.MyTodoListApplication No active profile set, falling back to default profiles: default
-[2023-11-19 00:11:07.423] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[2023-11-19 00:11:07.451] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
-[2023-11-19 00:11:07.741] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 5152 (http)
-[2023-11-19 00:11:07.746] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-5152"]
-[2023-11-19 00:11:07.746] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
-[2023-11-19 00:11:07.746] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.55]
-[2023-11-19 00:11:07.801] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
-[2023-11-19 00:11:07.801] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 888 ms
-[2023-11-19 00:11:07.874] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
-[2023-11-19 00:11:07.898] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.1.Final
-[2023-11-19 00:11:07.966] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-[2023-11-19 00:11:08.014] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
-[2023-11-19 00:11:08.038] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
-[2023-11-19 00:11:08.045] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-[2023-11-19 00:11:08.363] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "alter table todo_tb drop foreign key FKthew3m5jqlqwgupqso6xicnri" via JDBC Statement
-org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table todo_tb drop foreign key FKthew3m5jqlqwgupqso6xicnri" via JDBC Statement
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:153)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:81)
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:327)
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
-	at com.example.mytodolist.MyTodoListApplication.main(MyTodoListApplication.java:12)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=13) Table 'todoaction.todo_tb' doesn't exist
-	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
-	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:158)
-	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:262)
-	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:362)
-	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:500)
-	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
-	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
-	... 35 common frames omitted
-Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Table 'todoaction.todo_tb' doesn't exist
-	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:192)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:260)
-	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:356)
-	... 39 common frames omitted
-Caused by: java.sql.SQLException: Table 'todoaction.todo_tb' doesn't exist
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1696)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1558)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1521)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:254)
-	... 40 common frames omitted
-[2023-11-19 00:11:08.485] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-[2023-11-19 00:11:08.491] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
-[2023-11-19 00:11:09.013] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-5152"]
-[2023-11-19 00:11:09.024] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 5152 (http) with context path ''
-[2023-11-19 00:11:09.161] [INFO ] [main] com.example.mytodolist.MyTodoListApplication Started MyTodoListApplication in 2.607 seconds (JVM running for 3.971)
-[2023-11-19 00:11:33.407] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
-[2023-11-19 00:11:33.408] [INFO ] [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-[2023-11-19 00:11:33.464] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
-[2023-11-19 00:11:33.470] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
-[2023-11-19 00:11:38.735] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.0.Final
-[2023-11-19 00:11:38.735] [INFO ] [main] com.example.mytodolist.MyTodoListApplication Starting MyTodoListApplication using Java 11.0.0.1 on DESKTOP-1TRTNQM with PID 29344 (C:\appcenter-gitaction\MyTodoList\out\production\classes started by kanghj in C:\appcenter-gitaction\MyTodoList)
-[2023-11-19 00:11:38.737] [INFO ] [main] com.example.mytodolist.MyTodoListApplication No active profile set, falling back to default profiles: default
-[2023-11-19 00:11:39.295] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[2023-11-19 00:11:39.326] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
-[2023-11-19 00:11:39.631] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 5152 (http)
-[2023-11-19 00:11:39.636] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-5152"]
-[2023-11-19 00:11:39.636] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
-[2023-11-19 00:11:39.637] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.55]
-[2023-11-19 00:11:39.694] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
-[2023-11-19 00:11:39.694] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 927 ms
-[2023-11-19 00:11:39.764] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
-[2023-11-19 00:11:39.786] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.1.Final
-[2023-11-19 00:11:39.850] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-[2023-11-19 00:11:39.899] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
-[2023-11-19 00:11:39.924] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
-[2023-11-19 00:11:39.931] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-[2023-11-19 00:11:40.311] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "alter table todo_tb drop foreign key FKthew3m5jqlqwgupqso6xicnri" via JDBC Statement
-org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table todo_tb drop foreign key FKthew3m5jqlqwgupqso6xicnri" via JDBC Statement
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:153)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:81)
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:327)
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
-	at com.example.mytodolist.MyTodoListApplication.main(MyTodoListApplication.java:12)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=23) Table 'todoaction.todo_tb' doesn't exist
-	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
-	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:158)
-	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:262)
-	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:362)
-	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:500)
-	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
-	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
-	... 35 common frames omitted
-Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Table 'todoaction.todo_tb' doesn't exist
-	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:192)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:260)
-	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:356)
-	... 39 common frames omitted
-Caused by: java.sql.SQLException: Table 'todoaction.todo_tb' doesn't exist
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1696)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1558)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1521)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:254)
-	... 40 common frames omitted
-[2023-11-19 00:11:40.401] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-[2023-11-19 00:11:40.406] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
-[2023-11-19 00:11:40.925] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-5152"]
-[2023-11-19 00:11:40.936] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 5152 (http) with context path ''
-[2023-11-19 00:11:41.066] [INFO ] [main] com.example.mytodolist.MyTodoListApplication Started MyTodoListApplication in 2.623 seconds (JVM running for 3.991)
-[2023-11-19 00:12:04.702] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
-[2023-11-19 00:12:04.702] [INFO ] [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-[2023-11-19 00:12:04.753] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
-[2023-11-19 00:12:04.760] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
-[2023-11-19 00:14:32.064] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.0.Final
-[2023-11-19 00:14:32.064] [INFO ] [main] com.example.mytodolist.MyTodoListApplication Starting MyTodoListApplication using Java 11.0.0.1 on DESKTOP-1TRTNQM with PID 14760 (C:\appcenter-gitaction\MyTodoList\out\production\classes started by kanghj in C:\appcenter-gitaction\MyTodoList)
-[2023-11-19 00:14:32.066] [INFO ] [main] com.example.mytodolist.MyTodoListApplication No active profile set, falling back to default profiles: default
-[2023-11-19 00:14:32.646] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[2023-11-19 00:14:32.679] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
-[2023-11-19 00:14:33.016] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 5152 (http)
-[2023-11-19 00:14:33.021] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-5152"]
-[2023-11-19 00:14:33.022] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
-[2023-11-19 00:14:33.022] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.55]
-[2023-11-19 00:14:33.091] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
-[2023-11-19 00:14:33.091] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 992 ms
-[2023-11-19 00:14:33.165] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
-[2023-11-19 00:14:33.188] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.1.Final
-[2023-11-19 00:14:33.261] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-[2023-11-19 00:14:33.317] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
-[2023-11-19 00:14:33.342] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
-[2023-11-19 00:14:33.350] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-[2023-11-19 00:14:33.688] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "alter table todo_tb drop foreign key FKthew3m5jqlqwgupqso6xicnri" via JDBC Statement
-org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table todo_tb drop foreign key FKthew3m5jqlqwgupqso6xicnri" via JDBC Statement
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:153)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:81)
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:327)
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
-	at com.example.mytodolist.MyTodoListApplication.main(MyTodoListApplication.java:12)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=36) Table 'todoaction.todo_tb' doesn't exist
-	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
-	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:158)
-	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:262)
-	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:362)
-	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:500)
-	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
-	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
-	... 35 common frames omitted
-Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Table 'todoaction.todo_tb' doesn't exist
-	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:192)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:260)
-	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:356)
-	... 39 common frames omitted
-Caused by: java.sql.SQLException: Table 'todoaction.todo_tb' doesn't exist
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1696)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1558)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1521)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:254)
-	... 40 common frames omitted
-[2023-11-19 00:14:33.768] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-[2023-11-19 00:14:33.774] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
-[2023-11-19 00:14:34.323] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-5152"]
-[2023-11-19 00:14:34.335] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 5152 (http) with context path ''
-[2023-11-19 00:14:34.485] [INFO ] [main] com.example.mytodolist.MyTodoListApplication Started MyTodoListApplication in 2.748 seconds (JVM running for 4.153)
-[2023-11-19 00:15:00.650] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
-[2023-11-19 00:15:00.650] [INFO ] [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-[2023-11-19 00:15:00.717] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
-[2023-11-19 00:15:00.722] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
-[2023-11-19 02:34:54.036] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 6.2.0.Final
-[2023-11-19 02:34:54.037] [INFO ] [main] com.example.mytodolist.MyTodoListApplication Starting MyTodoListApplication using Java 11.0.0.1 on DESKTOP-1TRTNQM with PID 27748 (C:\appcenter-gitaction\MyTodoList\out\production\classes started by kanghj in C:\appcenter-gitaction\MyTodoList)
-[2023-11-19 02:34:54.040] [INFO ] [main] com.example.mytodolist.MyTodoListApplication No active profile set, falling back to default profiles: default
-[2023-11-19 02:34:54.727] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[2023-11-19 02:34:54.764] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
-[2023-11-19 02:34:55.162] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
-[2023-11-19 02:34:55.167] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
-[2023-11-19 02:34:55.168] [INFO ] [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
-[2023-11-19 02:34:55.168] [INFO ] [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.55]
-[2023-11-19 02:34:55.240] [INFO ] [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
-[2023-11-19 02:34:55.240] [INFO ] [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1170 ms
-[2023-11-19 02:34:55.322] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
-[2023-11-19 02:34:55.346] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.1.Final
-[2023-11-19 02:34:55.422] [INFO ] [main] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-[2023-11-19 02:34:55.485] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
-[2023-11-19 02:34:55.518] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
-[2023-11-19 02:34:55.528] [INFO ] [main] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-[2023-11-19 02:34:55.946] [WARN ] [main] org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl GenerationTarget encountered exception accepting command : Error executing DDL "alter table todo_tb drop foreign key FKthew3m5jqlqwgupqso6xicnri" via JDBC Statement
-org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table todo_tb drop foreign key FKthew3m5jqlqwgupqso6xicnri" via JDBC Statement
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
-	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:153)
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:81)
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:327)
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
-	at com.example.mytodolist.MyTodoListApplication.main(MyTodoListApplication.java:12)
-Caused by: java.sql.SQLSyntaxErrorException: (conn=46) Table 'todoaction.todo_tb' doesn't exist
-	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
-	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:158)
-	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:262)
-	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:362)
-	at org.mariadb.jdbc.MariaDbStatement.execute(MariaDbStatement.java:500)
-	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
-	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
-	... 35 common frames omitted
-Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Table 'todoaction.todo_tb' doesn't exist
-	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:192)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:260)
-	at org.mariadb.jdbc.MariaDbStatement.executeInternal(MariaDbStatement.java:356)
-	... 39 common frames omitted
-Caused by: java.sql.SQLException: Table 'todoaction.todo_tb' doesn't exist
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1696)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1558)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1521)
-	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:254)
-	... 40 common frames omitted
-[2023-11-19 02:34:56.072] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-[2023-11-19 02:34:56.081] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
-[2023-11-19 02:34:56.724] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
-[2023-11-19 02:34:56.736] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
-[2023-11-19 02:34:56.896] [INFO ] [main] com.example.mytodolist.MyTodoListApplication Started MyTodoListApplication in 3.281 seconds (JVM running for 4.985)
-[2023-11-19 02:34:59.989] [INFO ] [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2023-11-19 02:34:59.989] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
-[2023-11-19 02:34:59.990] [INFO ] [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
-[2023-11-19 02:35:13.574] [INFO ] [http-nio-8080-exec-2] com.example.mytodolist.controller.UserController [UserPost] 유저를 생성합니다.
-[2023-11-19 02:36:13.132] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
-[2023-11-19 02:36:13.132] [INFO ] [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
-[2023-11-19 02:36:13.173] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
-[2023-11-19 02:36:13.181] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-11-20 21:08:00.092] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-11-20 21:08:00.097] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-20 21:08:00.757] [INFO ] [main] org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-5152"]
+[2023-11-20 21:08:00.769] [INFO ] [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 5152 (http) with context path ''
+[2023-11-20 21:08:00.920] [INFO ] [main] com.example.mytodolist.MyTodoListApplication Started MyTodoListApplication in 3.877 seconds (JVM running for 10.002)
+[2023-11-20 21:08:45.935] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-11-20 21:08:45.935] [INFO ] [SpringApplicationShutdownHook] org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2023-11-20 21:08:46.033] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-11-20 21:08:46.042] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
