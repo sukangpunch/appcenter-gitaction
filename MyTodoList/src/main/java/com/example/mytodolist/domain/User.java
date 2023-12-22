@@ -50,7 +50,7 @@ public class User implements UserDetails {
 
 
     //이 아래부터 스프링 시큐리티를 위한 추가
-    @ElementCollection(fetch = FetchType.LAZY)
+    @ElementCollection(fetch = FetchType.EAGER)
     @Column(name = "user_roles")
     private List<String> roles = new ArrayList<>();
 
