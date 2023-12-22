@@ -53,7 +53,6 @@ public class User implements UserDetails {
     @ElementCollection(fetch = FetchType.LAZY)
     private List<String> roles = new ArrayList<>();
 
-
     //계정이 가지고 있는 권한 목록을 리턴합니다.
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities(){
