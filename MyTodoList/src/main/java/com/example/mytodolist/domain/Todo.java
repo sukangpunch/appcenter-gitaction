@@ -19,17 +19,17 @@ public class Todo extends Time{
     @Column(name = "todo_id")
     private Long id;
 
-    @Column(nullable = false)
+    @Column(nullable = false, name="todo_title")
     private String title;
 
-    @Column(nullable = false)
+    @Column(nullable = false, name ="todo_contents")
     private  String contents;
 
     //생성자로 초기화 하지 않으므로 기본값으로 false 가 들어간다.
-    @Column(nullable = false)
+    @Column(nullable = false, name ="todo_completed")
     private Boolean completed;
 
-    @Column(nullable = false)
+    @Column(nullable = false, name="todo_deadLine")
     private LocalDateTime deadLine;
 
     @ManyToOne(fetch = FetchType.LAZY)

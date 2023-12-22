@@ -26,22 +26,22 @@ public class User implements UserDetails {
     @Column(name = "user_id")
     private Long id;
 
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false,name = "user_uid")
     private String uid;
 
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-    @Column(nullable = false)
+    @Column(nullable = false, name = "user_password")
     private String password;
 
-    @Column(nullable = false)
+    @Column(nullable = false,name = "user_name")
     private String name;
 
-    @Column(nullable = false)
+    @Column(nullable = false, name = "user_email")
     private String email;
 
     //생성자로 초기화 하지 않으므로 기본값으로 0이 설정이 된다.
     //이후에 할일 성공 개수 기준으로 레벨을 증가시킴.
-    @Column(nullable = false)
+    @Column(nullable = false, name = "user_level")
     private int level;
 
     //생성자로 초기화 하지 않아도, @Builder.Default 를 이용하여 빈 ArrayList 로 초기화 함.
@@ -51,6 +51,7 @@ public class User implements UserDetails {
 
     //이 아래부터 스프링 시큐리티를 위한 추가
     @ElementCollection(fetch = FetchType.LAZY)
+    @Column(name = "user_roles")
     private List<String> roles = new ArrayList<>();
 
     //계정이 가지고 있는 권한 목록을 리턴합니다.
